@@ -1,0 +1,30 @@
+# Segmentation of Cow Beef Area
+
+
+## Preprocess / Train / Prediction (Evaluation)
+## 기본적으로 Jupyter를 이용하여 수행
+## 코드가 담긴 cell에 마우스 클릭하여 cell을 활성화
+## 활성화된 cell에 "shift + Enter" 혹은 "ctrl + Enter"를 눌러 수행
+
+
+### Preprocess
+```
+Preprocessing.ipynb - Data preprocessing
+It preprocesses the input data (i.e., images) after setting the data path.
+```
+
+
+### Train
+```
+Train_Model.ipynb - Model training for segmentation of cow beef area
+It trains the segmentation model for classifying each pixel from the input image 
+(i.e., finding area of the cow beef) using the preprocessed data.
+```
+
+
+### Prediction (Evaluation)
+```
+Prediction.ipynb - Prediction of segmented cow beef area and evaluation of the trained model performance
+It predicts a cow beef area from an input image which contains only one cow beef.
+It can measure the performance of the trained model.
+```

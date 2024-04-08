@@ -1,0 +1,30 @@
+# Classification of Chicken Grade
+
+
+## Preprocess / Train / Prediction (Evaluation)
+## 기본적으로 Jupyter를 이용하여 수행
+## 코드가 담긴 cell에 마우스 클릭하여 cell을 활성화
+## 활성화된 cell에 "shift + Enter" 혹은 "ctrl + Enter"를 눌러 수행
+
+
+### Preprocess
+```
+Preprocess.ipynb - Data preprocessing
+It preprocesses the input data (i.e., images) after setting the data path.
+```
+
+
+### Train
+```
+Train_Model.ipynb - Model training for classification of chicken grades
+It trains the classification model for classifying the chicken grades 
+using the preprocessed data.
+```
+
+
+### Prediction (Evaluation)
+```
+Prediction.ipynb - Prediction of chicken grade and evaluation of the trained model performance
+It predicts chicken grade from an input image which contains a chicken.
+It can measure the performance of the trained model.
+```
